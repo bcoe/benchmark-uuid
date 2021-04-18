@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>UUID Benchmarks</title>
+  </head>
+  <body>
+    <script type="module">
+      import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+      window.uuidv4 = uuidv4;
+    </script>
+    <script src="dist/benchmarks.js"></script>
+  </body>
+</html>
